@@ -87,7 +87,7 @@ public class Base_Test {
 		wait = new WebDriverWait(driver, Duration.ofSeconds(1000));
 		wait.until(ExpectedConditions.elementToBeClickable(welcomePage.getLoginBtn()));
 		Thread.sleep(3000);
-
+		
 		welcomePage.getLoginBtn().click();
 
 		loginPage = new Login_Page(driver);
