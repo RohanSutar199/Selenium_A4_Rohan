@@ -43,7 +43,8 @@ public class TC_001_Verity_user_able_to_add_address_or_not_Test extends Base_Tes
 		Thread.sleep(2000);
 		myAddressesPage.getCloseBtn().click();
 		
-		webdriverDriverUtility.getWebPageScreenshot(driver);		
+		webdriverDriverUtility.getWebPageScreenshot(driver);
+		Thread.sleep(3000);
 		
 	}
 
