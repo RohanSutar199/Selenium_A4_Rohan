@@ -31,6 +31,7 @@ public class TC_002_Verity_user_able_to_delete_address_or_not_Test extends Base_
 		
 		Thread.sleep(1000);
 		webdriverDriverUtility.getWebPageScreenshot(driver);
+		Thread.sleep(5000);
 		
 	}
 }
